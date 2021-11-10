@@ -1,32 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './header.js'
+import Technologies from './technologies.js'
+import Footer from './footer';
 
-function App() {
+const App = () =>  {
   return (   
     <div> 
       <Header />
       <Technologies />
+      <Footer />
     </div>   
   );
-}
-
-function Header() {
-  return(
-    <h1>Header</h1>
-  )
-}
-
-function Technologies(){
-  return(
-    <div>
-        <ul>
-          <li>Node</li>
-          <li>React</li>
-          <li>Angular</li>
-          <li>HTML</li>
-        </ul>
-      </div>
-  )
 }
 
 export default App;
